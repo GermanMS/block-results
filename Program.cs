@@ -10,3 +10,23 @@ for   (int i = 0; i < A.Length; i++)
      A [i] = Console.ReadLine();
     }
 Console.WriteLine("вывод массива");
+for   (int i = 0; i < A.Length; i++)
+{
+Console.Write(A[i] + " ");
+}
+for (int i = 0; i < A.Length; i++)
+{
+    if ( A[i].Length <= 3 )
+    {
+       b = b+1;
+    }
+}
+string  [] A2 = new string [b];
+for (int i = 0; i < A2.Length; i++)
+{
+    if (A[i].Length <= 3)
+    {
+       A2[i] = A[i];
+    }
+    
+}
