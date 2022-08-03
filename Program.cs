@@ -30,3 +30,9 @@ for (int i = 0; i < A2.Length; i++)
     }
     
 }
+Console.WriteLine("\n вывод нового массива");
+for   (int i = 0; i < A2.Length; i++)
+{
+Console.Write(A2[i]+ " ");
+}
+Console.WriteLine($"\n {b} длина массива");
